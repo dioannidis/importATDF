@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="12"/>
+    <Version Value="11"/>
     <General>
-      <Flags>
-        <CompatibilityMode Value="True"/>
-      </Flags>
       <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
       <Title Value="importatdf"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
@@ -18,16 +16,9 @@
       <Version Value="2"/>
     </PublishOptions>
     <RunParams>
-      <local>
-        <CommandLineParams Value="&quot;/home/christo/Desktop/Electronics/Atmel info/atpack/atdf/ATmega4809.atdf&quot;"/>
-      </local>
       <FormatVersion Value="2"/>
       <Modes Count="1">
-        <Mode0 Name="default">
-          <local>
-            <CommandLineParams Value="&quot;/home/christo/Desktop/Electronics/Atmel info/atpack/atdf/ATmega4809.atdf&quot;"/>
-          </local>
-        </Mode0>
+        <Mode0 Name="default"/>
       </Modes>
     </RunParams>
     <RequiredPackages Count="1">
@@ -86,9 +77,6 @@
         </Win32>
       </Options>
     </Linking>
-    <Other>
-      <CompilerPath Value="/home/christo/fpc/installs/lib/fpc/3.1.1/ppcx64"/>
-    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">

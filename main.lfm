@@ -1,18 +1,18 @@
 object Form1: TForm1
-  Left = 423
+  Left = 652
   Height = 250
-  Top = 198
+  Top = 427
   Width = 552
   Caption = 'Form1'
-  ClientHeight = 250
+  ClientHeight = 230
   ClientWidth = 552
   Menu = MainMenu1
   OnShow = FormShow
-  LCLVersion = '2.1.0.0'
+  LCLVersion = '2.0.8.0'
   WindowState = wsMaximized
   object Memo1: TMemo
     Left = 0
-    Height = 250
+    Height = 230
     Top = 0
     Width = 552
     Align = alClient
